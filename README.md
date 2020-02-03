@@ -3,7 +3,7 @@
 # Content
 
 Simple Android Application with Offline Cache feature.
-
+Uses News Api.
 
 ## Installation
 
@@ -15,12 +15,22 @@ Security checks have been ignored. It can be developed as issues.
 const val API_KEY = "xxx"
 ```
 
+## Libraries & Architecture
+
+MVVM - Repository , ViewModel ...
+Android Architecture Jetpack Components (LiveData,DataBinding,Room,Navigation Component...)
+Retrofit
+Glide
+
+
 ## Usage
 
 Run :)
 
 ## Contributing
 Feel free to add the features you see as a lack :)
+
+
 
 ## License
 ```bash
