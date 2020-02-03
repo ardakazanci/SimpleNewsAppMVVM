@@ -1,4 +1,4 @@
-package com.ardakazanci.simplenewsappmvvm.common
+package com.ardakazanci.simplenewsappmvvm.util
 
 object Constants {
 

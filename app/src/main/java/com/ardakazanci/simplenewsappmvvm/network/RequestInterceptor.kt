@@ -1,11 +1,8 @@
 package com.ardakazanci.simplenewsappmvvm.network
 
-import com.ardakazanci.simplenewsappmvvm.common.Constants
+import com.ardakazanci.simplenewsappmvvm.util.Constants
 import okhttp3.Interceptor
-import okhttp3.OkHttpClient
 import okhttp3.Response
-import okhttp3.logging.HttpLoggingInterceptor
-import java.util.concurrent.TimeUnit
 
 class RequestInterceptor : Interceptor {
 

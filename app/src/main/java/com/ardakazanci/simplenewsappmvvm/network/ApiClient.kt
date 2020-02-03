@@ -1,6 +1,6 @@
 package com.ardakazanci.simplenewsappmvvm.network
 
-import com.ardakazanci.simplenewsappmvvm.common.Constants
+import com.ardakazanci.simplenewsappmvvm.util.Constants
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
