@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SimpleNewsAppMVVM</string>
+    <string name="news_image">News Image</string>
 </resources>

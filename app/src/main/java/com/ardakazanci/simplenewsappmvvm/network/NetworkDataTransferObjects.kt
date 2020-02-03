@@ -15,13 +15,13 @@ data class NetworkArticlesContainer(val articles: List<NetworkArticle>)
 
 @JsonClass(generateAdapter = true)
 data class NetworkArticle(
-    val author: String,
+    val author: String?,
     val title: String,
     val description: String,
     val url: String,
     val urlToImage: String,
     val publishedAt: String,
-    val content: String
+    val content: String?
 )
 
 /**

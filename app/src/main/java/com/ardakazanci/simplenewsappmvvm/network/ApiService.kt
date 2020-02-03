@@ -10,7 +10,7 @@ import retrofit2.http.GET
  */
 interface ApiService {
 
-    @GET("/top-headlines?country=tr")
+    @GET("/v2/top-headlines?country=us")
     fun getArticles(): Deferred<NetworkArticlesContainer>
 
 }

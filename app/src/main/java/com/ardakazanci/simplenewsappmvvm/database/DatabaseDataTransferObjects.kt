@@ -6,14 +6,14 @@ import com.ardakazanci.simplenewsappmvvm.domain.DomainModel
 
 @Entity
 data class DatabaseArticleModel(
-    val author: String,
+    val author: String?,
     val title: String,
     val description: String,
     @PrimaryKey
     val url: String,
     val urlToImage: String,
     val publishedAt: String,
-    val content: String
+    val content: String?
 )
 
 /**

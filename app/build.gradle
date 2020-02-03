@@ -77,6 +77,9 @@ dependencies {
     def moshi_version = "1.6.0"
     implementation "com.squareup.moshi:moshi:$moshi_version"
     implementation "com.squareup.moshi:moshi-kotlin:$moshi_version"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
     kapt "com.squareup.moshi:moshi-kotlin-codegen:$moshi_version"
 
 
@@ -102,7 +105,6 @@ dependencies {
     def okhttp_version = "4.3.1"
     implementation "com.squareup.okhttp3:okhttp:$okhttp_version"
     implementation("com.squareup.okhttp3:logging-interceptor:$okhttp_version")
-
 
 
 }
