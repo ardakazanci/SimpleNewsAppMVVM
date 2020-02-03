@@ -7,7 +7,9 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 
-
+/**
+ * We combine Retrofit Object and Retrofit Service to produce singleton Object.
+ */
 object ApiClient {
 
 

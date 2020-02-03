@@ -4,6 +4,10 @@ import com.ardakazanci.simplenewsappmvvm.database.DatabaseArticleModel
 import com.ardakazanci.simplenewsappmvvm.domain.DomainModel
 import com.squareup.moshi.JsonClass
 
+/**
+ * There are methods that provide mapping operations to DomainModel and DatabaseModel.
+ */
+
 
 @JsonClass(generateAdapter = true)
 data class NetworkArticlesContainer(val articles: List<NetworkArticle>)

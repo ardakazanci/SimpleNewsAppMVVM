@@ -4,6 +4,9 @@ import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.room.*
 
+/**
+ * Creating a database object and configuring Dao
+ */
 @Dao
 interface ArticleDao {
     @Query("SELECT * FROM databasearticlemodel")

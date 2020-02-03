@@ -4,6 +4,9 @@ import com.ardakazanci.simplenewsappmvvm.util.Constants
 import okhttp3.Interceptor
 import okhttp3.Response
 
+/**
+ * Allows apiKey to be appended to each url request.
+ */
 class RequestInterceptor : Interceptor {
 
     override fun intercept(chain: Interceptor.Chain): Response {
