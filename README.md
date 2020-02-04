@@ -6,7 +6,8 @@ Simple Android Application with Offline Cache feature.
 Uses News Api.
 
 # Gif
-![](https://www.imageupload.net/upload-image/2020/02/03/Feb-03-2020-16-24-29.gif)
+
+![Sample News App MVVM Tutorial](https://www.imageupload.net/upload-image/2020/02/03/Feb-03-2020-16-24-29.gif)
 
 
 ## Installation
